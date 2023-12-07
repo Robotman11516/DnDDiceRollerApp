@@ -24,7 +24,7 @@
             android:layout_height="match_parent"
             android:contentDescription="d4"
             android:src="@drawable/d4"
-            app:tint="@color/red_900" />
+            app:tint="@color/user_green" />
 
         <TextView
             android:id="@+id/d4Text"
@@ -49,7 +49,7 @@
             android:layout_height="match_parent"
             android:contentDescription="d6"
             android:src="@drawable/d6"
-            app:tint="@color/red_900" />
+            app:tint="@color/user_green" />
 
         <TextView
             android:id="@+id/d6Text"
@@ -73,7 +73,7 @@
             android:layout_height="match_parent"
             android:contentDescription="d8"
             android:src="@drawable/d8"
-            app:tint="@color/red_900" />
+            app:tint="@color/user_green" />
 
         <TextView
             android:id="@+id/d8Text"
@@ -97,7 +97,7 @@
             android:layout_height="match_parent"
             android:contentDescription="d10"
             android:src="@drawable/d10"
-            app:tint="@color/red_900" />
+            app:tint="@color/user_green" />
 
         <TextView
             android:id="@+id/d10Text"
@@ -121,7 +121,7 @@
             android:layout_height="match_parent"
             android:contentDescription="d12"
             android:src="@drawable/d12"
-            app:tint="@color/red_900" />
+            app:tint="@color/user_green" />
 
         <TextView
             android:id="@+id/d12Text"
@@ -145,7 +145,7 @@
             android:layout_height="match_parent"
             android:contentDescription="d20"
             android:src="@drawable/d20"
-            app:tint="@color/red_900" />
+            app:tint="@color/user_green" />
 
         <TextView
             android:id="@+id/d20Text"

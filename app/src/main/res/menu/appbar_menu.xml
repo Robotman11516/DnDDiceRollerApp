@@ -1,22 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/action_roll_length"
-        android:title="@string/action_roll"
-        android:icon="@drawable/timer"
-        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/user_green"
+        android:title="@string/user_green"
+        app:showAsAction="always"/>
 
-    <item android:id="@+id/action_stop"
-        android:title="@string/action_stop"
-        android:icon="@drawable/stop"
-        android:visible="false"
-        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/user_blue"
+        android:title="@string/user_blue"
+        app:showAsAction="always"/>
 
-
-    <item android:id="@+id/action_roll"
-        android:title="@string/action_roll"
-        android:icon="@drawable/roll"
-        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/user_purple"
+        android:title="@string/user_purple"
+        app:showAsAction="always"/>
 
     <item android:id="@+id/action_D4"
         android:title="@string/action_d4"
@@ -40,18 +35,6 @@
 
     <item android:id="@+id/action_D20"
         android:title="@string/action_d20"
-        app:showAsAction="never"/>
-
-    <item android:id="@+id/user_green"
-        android:title="@string/user_green"
-        app:showAsAction="never"/>
-
-    <item android:id="@+id/user_blue"
-        android:title="@string/user_blue"
-        app:showAsAction="never"/>
-
-    <item android:id="@+id/user_purple"
-        android:title="@string/user_purple"
         app:showAsAction="never"/>
 
 </menu>
