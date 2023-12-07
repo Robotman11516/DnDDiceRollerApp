@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tawny_orange"
+    tools:context="com.ung.dndDiceRollerApp.MainActivity">
+
+    <!--D4 Frame-->
+    <FrameLayout
+        android:id="@+id/d4frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/d4Image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="d4"
+            android:src="@drawable/d4"
+            app:tint="@color/red_900" />
+
+        <TextView
+            android:id="@+id/d4Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="4"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <!--D6 Frame-->
+    <FrameLayout
+        android:id="@+id/d6frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/d6Image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="d6"
+            android:src="@drawable/d6"
+            app:tint="@color/red_900" />
+
+        <TextView
+            android:id="@+id/d6Text"
+            android:text="6"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/d8frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/d8Image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="d8"
+            android:src="@drawable/d8"
+            app:tint="@color/red_900" />
+
+        <TextView
+            android:id="@+id/d8Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:text="8"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/d10frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/d10Image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="d10"
+            android:src="@drawable/d10"
+            app:tint="@color/red_900" />
+
+        <TextView
+            android:id="@+id/d10Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:text="01"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/d12frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/d12Image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="d12"
+            android:src="@drawable/d12"
+            app:tint="@color/red_900" />
+
+        <TextView
+            android:id="@+id/d12Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="12"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/d20frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/d20Image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="d20"
+            android:src="@drawable/d20"
+            app:tint="@color/red_900" />
+
+        <TextView
+            android:id="@+id/d20Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top|center_vertical"
+            android:text="20"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+</LinearLayout>

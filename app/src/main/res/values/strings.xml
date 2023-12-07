@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DnD Dice Roller</string>
+    <string name="action_roll">Roll</string>
+    <string name="action_one">One</string>
+    <string name="action_two">Two</string>
+    <string name="action_three">Three</string>
+    <string name="action_stop">Stop</string>
+    <string name="dice_one">1</string>
+    <string name="add_one">Add one</string>
+    <string name="subtract_one">Subtract one</string>
+    <string name="roll">Roll</string>
+    <string name="action_d4">D4</string>
+    <string name="action_d6">D6</string>
+    <string name="action_d8">D8</string>
+    <string name="action_d10">D10</string>
+    <string name="action_d12">D12</string>
+    <string name="action_d20">D20</string>
+    <string name="user_green">Green</string>
+    <string name="user_purple">Purple</string>
+    <string name="user_blue">Blue</string>
+</resources>
