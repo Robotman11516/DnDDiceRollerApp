@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     private ImageView[] mDiceImageViews;
     private TextView[] mDiceTextViews;
     private FrameLayout[] mDiceFrames;
-    private int[] mDiceRand;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
