@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int randomD4 = new Random().nextInt(4) + 1;
-                mDiceTextViews[1].setText(String.valueOf(randomD4));
+                mDiceTextViews[0].setText(String.valueOf(randomD4));
             }
         });
         mDiceFrames[1].setOnClickListener(new View.OnClickListener() {
