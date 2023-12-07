@@ -134,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
             if (mDice[i].visabiliy) {
                 Drawable diceDrawable = ContextCompat.getDrawable(this, mDice[i].getImageId());
                 mDiceImageViews[i].setImageDrawable(diceDrawable);
-                //mDiceImageViews[i].setContentDescription(Integer.toString(mDice[i].getNumber()));
             }
         }
     }
